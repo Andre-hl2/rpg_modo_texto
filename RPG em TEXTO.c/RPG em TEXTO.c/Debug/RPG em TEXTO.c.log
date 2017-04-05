@@ -1,0 +1,39 @@
+﻿Build started 21/06/2013 18:14:25.
+     1>Project "E:\RPG em TEXTO.c\RPG em TEXTO.c\RPG em TEXTO.c.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\ARQUIVOS\dragao.c
+         dragao.c
+     1>e:\rpg em texto.c\arquivos\dragao.c(53): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(103): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(125): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\rpg em texto.c\arquivos\dragao.c(164): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(165): warning C4013: 'op_jogador' undefined; assuming extern returning int
+     1>e:\rpg em texto.c\arquivos\dragao.c(200): warning C4013: 'derrota' undefined; assuming extern returning int
+     1>e:\rpg em texto.c\arquivos\dragao.c(286): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(300): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(345): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(355): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>e:\rpg em texto.c\arquivos\dragao.c(356): warning C4013: 'menuu' undefined; assuming extern returning int
+     1>e:\rpg em texto.c\arquivos\dragao.c(55): warning C4716: 'cria_batalha_dragao' : must return a value
+     1>e:\rpg em texto.c\arquivos\dragao.c(287): warning C4716: 'batalha_dragao' : must return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\RPG em TEXTO.c\Debug\RPG em TEXTO.c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\RPG em TEXTO.c\Debug\RPG em TEXTO.c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\RPG em TEXTO.c\Debug\RPG em TEXTO.c.lib" /MACHINE:X86 Debug\atributos.obj
+         Debug\batalhas.obj
+         Debug\dragao.obj
+         Debug\interface.obj
+         Debug\main.obj
+         Debug\mapa.obj
+         Debug\puzzles.obj
+         RPG em TEXTO.c.vcxproj -> E:\RPG em TEXTO.c\Debug\RPG em TEXTO.c.exe
+     1>Done Building Project "E:\RPG em TEXTO.c\RPG em TEXTO.c\RPG em TEXTO.c.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.86
